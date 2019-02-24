@@ -1,0 +1,107 @@
+#error{
+	background-color: #f2dede;
+	border-color:#f2dede;
+	padding:10px;
+	color:#a94442;
+}
+#logerror{
+	background-color: #f2dede;
+	border-color: #f2dede;
+	padding: 10px;
+	color: #a94442;
+	width: 55%;
+	margin-left: 103px;
+	text-align: left !important;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+#sucess{
+	background-color: #dff0d8;
+	border-color:#d6e9c6;
+	padding: 10px;
+	color: #3c763d;
+}
+#loginDiv{
+	
+	padding: 50px;
+	width:40%;
+	text-align:center;
+	margin-left:25%;
+	margin-top:15%;
+	padding:20px 20px 20px 20px;
+}
+#loginDiv input[type=text], input[type=password] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#loginDiv input[type=submit] {
+  width: 60%;
+  background-color: #fff;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid green;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:17px;
+}
+#loginDiv  input[type=submit]:hover {
+  background-color: green;
+  color:#fff;
+  font-size:17px;
+}
+#empDiv{
+	margin-left:20px;
+}
+#empDiv input[type=text], input[type=password] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#empDiv input[type=submit] {
+  background-color: #fff;
+  color: black;
+  padding: 10px 10px;
+  border: 2px solid green;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:17px;
+  margin-top:20px;
+}
+#empDiv  input[type=submit]:hover {
+  background-color: green;
+  color:#fff;
+  font-size:17px;
+}
+#submitButon{
+	float: left;
+	width: 40%;
+	
+}
+#showButon{
+	float: right;
+	width: 40%;
+	margin-right:30px;
+
+}

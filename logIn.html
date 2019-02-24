@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div id = "loginDiv">
+		<form name="loginForm">
+			<p  style = "display: none" id ="logerror"></p>
+			<p style = "display: none" id ="logsucess"></p>
+			<div><input type ="text" id = "uname" placeholder ="Enter Username"></div>
+			<div><input type ="password" id = "password" placeholder ="Enter Password"></div>
+			<div><input type ="submit" value = "Submit" onclick = " return logInValidate()"></div>
+
+		</form>
+	</div>
+	<div id="frameDiv" style="display: none;">
+		<iframe id = "emp_form" src="empForm.html"   width = "600px" height = "600px"></iframe>
+		<iframe id = "emp_data" src="empData.html" width = "670px" height = "600px"></iframe>
+	</div>
+	<script src = "./js/validate.js"></script>
+</body>
+</html>

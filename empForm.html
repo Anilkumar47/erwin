@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div  id="errorDiv">
+		<p style = "display: none" id ="error"></p>
+		<p style = "display: none"  id ="sucess"></p>
+		
+	</div>
+	<div id = "empDiv">
+		<form name="empForm">
+			
+			<p style = "display: none" id ="error"></p>
+			<p style = "display: none"  id ="sucess"></p>
+			<input type ="text" id = "fname" placeholder ="Enter Firstname">
+			<input type ="text" id = "lname" placeholder ="Enter Lastname">
+			<input type ="text" id = "dob" placeholder ="Enter Date of Birth">
+			<input type ="text" id = "empId" placeholder ="Enter Employee Id">
+			<input type ="text" id = "email" placeholder ="Enter Email">
+			<input type ="text" id = "mobile" placeholder ="Enter Mobile">
+			<textarea type ="text" rows="4" cols = "50" id = "adress" placeholder ="Enter Address"></textarea> 
+			<div>
+				<input type ="submit" value = "Submit" id ="submitButon" onclick = "return parent.empFormValidate()">
+				<input type = "submit" value = "Show Details" id ="showButon"  onclick="return parent.showInTable();">
+			</div>
+
+
+		</form>
+	</div>
+	
+</body>
+</html>
